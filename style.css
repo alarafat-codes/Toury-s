@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+nav {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+li,
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+nav {
+  padding: 34px 0px;
+   width: 100%;
+}
+span {
+  color: black;
+}
+.content {
+  width: 1320px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  gap: 60px;
+}
+.banner {
+  background-image: url("bg-image.jpg");
+
+  padding: 299px 0px 439px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: capitalize;
+ 
+  color: white;
+}
